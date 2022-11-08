@@ -1,9 +1,8 @@
 .header {
 display: block;
 width: 45%;
-margin-block-end: 0%;
-margin-top: 15mm;
-margin-left: 10mm;
+margin: auto;
+margin-left: 5px;
 }
 
 body {
@@ -12,25 +11,21 @@ body {
 
 .index_picture {
     display: block;
-    margin-top: 15mm;
-    margin-right: 10mm;
-    margin-left: 48%;
     width: 40%;
-    border: 1px;
+    margin: auto;
+    margin-right: 5px;
+    margin-top: 45px;
+    
+   
 }
 
-.index_picture {
-    padding: 10%;
-}
+/* Lasagna Button */
 
-<!-- HTML !-->
-<button class="button-89" role="button">Button 89</button>
-
-/* CSS */
-.button-89 {
+.Lasagna
+ {
   --b: 3px;   /* border thickness */
   --s: .45em; /* size of the corner */
-  --color: #373B44;
+  --color: rgb(255, 255, 255);
   
   padding: calc(.5em + var(--s)) calc(.9em + var(--s));
   color: var(--color);
@@ -60,4 +55,129 @@ body {
 .Lasagna:active {
   background: var(--color);
   color: #fff;
+}
+/* Currywurst button */
+
+.Currywurst
+ {
+  --b: 3px;   /* border thickness */
+  --s: .45em; /* size of the corner */
+  --color: rgb(255, 255, 255);
+  
+  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+  color: var(--color);
+  --_p: var(--s);
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+  transition: .3s linear, color 0s, background-color 0s;
+  outline: var(--b) solid #0000;
+  outline-offset: .6em;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.Currywurst:hover,
+.Currywurst:focus-visible{
+  --_p: 0px;
+  outline-color: var(--color);
+  outline-offset: .05em;
+}
+
+.Currywurst:active {
+  background: var(--color);
+  color: #fff;
+}
+
+/*Bolognese Button*/
+
+.Bolognese
+ {
+  --b: 3px;   /* border thickness */
+  --s: .45em; /* size of the corner */
+  --color: rgb(255, 255, 255);
+  
+  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+  color: var(--color);
+  --_p: var(--s);
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+  transition: .3s linear, color 0s, background-color 0s;
+  outline: var(--b) solid #0000;
+  outline-offset: .6em;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.Bolognese:hover,
+.Bolognese:focus-visible{
+  --_p: 0px;
+  outline-color: var(--color);
+  outline-offset: .05em;
+}
+
+.Bolognese:active {
+  background: var(--color);
+  color: #fff;
+}
+
+/*Blue Cheese Stuffed Chicken Breasts Button*/
+
+.Blue_cheese
+ {
+  --b: 3px;   /* border thickness */
+  --s: .45em; /* size of the corner */
+  --color: rgb(255, 255, 255);
+  
+  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+  color: var(--color);
+  --_p: var(--s);
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+  transition: .3s linear, color 0s, background-color 0s;
+  outline: var(--b) solid #0000;
+  outline-offset: .6em;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.Blue_cheese:hover,
+.Blue_cheese:focus-visible{
+  --_p: 0px;
+  outline-color: var(--color);
+  outline-offset: .05em;
+}
+
+.Blue_cheese:active {
+  background: var(--color);
+  color: #fff;
+}
+
+div.recipe_buttons1 {
+    position: absolute;
+    top: 575px;
+    margin-left: 400px;
+}
+
+div.recipe_buttons2 {
+    position: absolute;
+    top: 675px;
+    margin-left: 475px;
 }
