@@ -19,6 +19,33 @@ body {
 
 /* Navigation Bar WIP */
 
+.topnav {
+    background-color: #333;
+    background-size: 100px;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: rgba(222,196,186,255);
+    color: white;
+  }
 
 
 
@@ -29,6 +56,7 @@ body {
   --b: 3px;   /* border thickness */
   --s: .45em; /* size of the corner */
   --color: rgb(255, 255, 255);
+
   
   padding: calc(.5em + var(--s)) calc(.9em + var(--s));
   color: var(--color);
@@ -51,12 +79,12 @@ body {
 .Lasagna:hover,
 .Lasagna:focus-visible{
   --_p: 0px;
-  outline-color: var(--color);
+  outline-color: rgba(222,196,186,255);
   outline-offset: .05em;
 }
 
 .Lasagna:active {
-  background: var(--color);
+  background: rgba(222,196,186,255);
   color: #fff;
 }
 /* Currywurst button */
@@ -88,13 +116,13 @@ body {
 .Currywurst:hover,
 .Currywurst:focus-visible{
   --_p: 0px;
-  outline-color: var(--color);
+  outline-color: rgba(222,196,186,255);
   outline-offset: .05em;
 }
 
 .Currywurst:active {
-  background: var(--color);
-  color: #fff;
+  background: rgba(222,196,186,255);
+  color: white;
 }
 
 /*Bolognese Button*/
@@ -126,12 +154,12 @@ body {
 .Bolognese:hover,
 .Bolognese:focus-visible{
   --_p: 0px;
-  outline-color: var(--color);
+  outline-color: rgba(222,196,186,255);
   outline-offset: .05em;
 }
 
 .Bolognese:active {
-  background: var(--color);
+  background: rgba(222,196,186,255);
   color: #fff;
 }
 
@@ -164,12 +192,12 @@ body {
 .Blue_cheese:hover,
 .Blue_cheese:focus-visible{
   --_p: 0px;
-  outline-color: var(--color);
+  outline-color: rgba(222,196,186,255);
   outline-offset: .05em;
 }
 
 .Blue_cheese:active {
-  background: var(--color);
+  background: rgba(222,196,186,255);
   color: #fff;
 }
 
