@@ -11,13 +11,16 @@ body {
 
 .index_picture {
     display: block;
-    width: 40%;
+    width: 38%;
     margin: auto;
     margin-right: 5px;
     margin-top: 45px;
-    
-   
 }
+
+/* Navigation Bar WIP */
+
+
+
 
 /* Lasagna Button */
 
@@ -173,13 +176,14 @@ body {
 div.recipe_buttons1 {
     position: absolute;
     top: 525px;
-    margin-left: 100px;
+    margin-left: 350px;
 }
 
 div.recipe_buttons2 {
     position: absolute;
     top: 675px;
     margin-left: 150px;
+    margin-right: 150px;
 }
 
 h1, h2, h3, p, ul, ol {
