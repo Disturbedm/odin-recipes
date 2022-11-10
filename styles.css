@@ -2,7 +2,7 @@
 display: block;
 width: 45%;
 margin: auto;
-margin-left: 5px;
+margin: 1%;
 }
 
 body {
@@ -13,8 +13,9 @@ body {
     display: block;
     width: 38%;
     margin: auto;
-    margin-right: 5px;
-    margin-top: 45px;
+    margin-right: 1%;
+    margin-top: -1%;
+    padding: 1%;
 }
 
 /* Navigation Bar WIP */
@@ -203,15 +204,19 @@ body {
 
 div.recipe_buttons1 {
     position: absolute;
-    top: 525px;
-    margin-left: 350px;
+    margin-left: 15%;
+    margin-top: -20%;
 }
 
 div.recipe_buttons2 {
     position: absolute;
-    top: 675px;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 10%;
+    margin-top: -12%;
+    padding: 1%;
+  
+}
+.recipe_buttons {
+
 }
 
 h1, h2, h3, p, ul, ol {
